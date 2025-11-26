@@ -1,3 +1,3 @@
-# leetcode_sol
+# leetcode_solution
 
 test
