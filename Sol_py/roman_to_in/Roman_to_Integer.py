@@ -43,9 +43,5 @@ class Solution:
                 sum_realnum.append(real_num[-1])
             
         
-        return sum(sum_realnum)
+        return sum(sum_realnum) 
 
-                 
-in_s = str(input())
-n = Solution()
-print(n.romanToInt(in_s)) 
