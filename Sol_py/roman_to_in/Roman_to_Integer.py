@@ -7,7 +7,7 @@ step2 check input.
         else:
             to stap3
 step3 treat input as words and spilt each element for put in list. 
-step4 analys pattern roman number if current index more >= next index sum both index 
+step4 analysis pattern roman number if current index more >= next index sum both index 
       if < next index minus both 
 step5 create condition and loop for anlys and return in list[]
 step6 sum(list[]) 
