@@ -6,7 +6,8 @@ impl Solution {
         let mut right = s.len() -1;
 
         while left < right {
-            println!("reverse S = {}", s[right]);
+            s.swap(left, right);
+            left += 1;
             right -= 1;
         }
     }
@@ -15,4 +16,5 @@ impl Solution {
 fn main() {
     let mut s = vec!['a', 'b', 'c', 'd', 'e', 'f', 'g'];
     Solution::reverse_string(&mut s);
+    println!("{:?}", s);
 }
