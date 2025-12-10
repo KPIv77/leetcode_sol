@@ -12,16 +12,18 @@ impl Solution {
 
         for index in nums.iter() {
             if *index != 0 {
-                revise_nums.push(index);
+                revise_nums.push(*index);
             }
         }
         for index_zero in nums.iter() {
             if *index_zero == 0 {
-                revise_nums.push(index_zero);
+                revise_nums.push(*index_zero);
             }
         }
-        println!("{:?}", revise_nums);
-
+        /*clear nums and add new value nums*/
+        nums.clear();
+        nums.extend(revise_nums);
+        println!("{:?}", nums);
         }
         
     }
